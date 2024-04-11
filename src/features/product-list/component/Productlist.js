@@ -1,51 +1,79 @@
-import React, { useEffect, useState, Fragment } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
+import React, { useEffect, useState, Fragment } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/20/solid";
 import {
   selectAllProducts,
   fetchProductsByFiltersAsync,
-  fetchAllProductsAsync
-} from '../ProductSlice';
-import { Dialog, Disclosure, Menu, Transition } from '@headlessui/react'
-import { XMarkIcon } from '@heroicons/react/24/outline'
-import { ChevronDownIcon, FunnelIcon, StarIcon, MinusIcon, PlusIcon, Squares2X2Icon } from '@heroicons/react/20/solid'
-import { Link } from 'react-router-dom';
-import { selectCount } from '../../counter/counterSlice';
-import { ITEMS_PER_PAGE } from '../../../app/constants';
-
+  fetchAllProductsAsync,
+  selectcategories,
+  selectTotalItems,
+  fetchCategoriesAsync,
+} from "../ProductSlice";
+import { Dialog, Disclosure, Menu, Transition } from "@headlessui/react";
+import { XMarkIcon } from "@heroicons/react/24/outline";
+import {
+  ChevronDownIcon,
+  FunnelIcon,
+  StarIcon,
+  MinusIcon,
+  PlusIcon,
+  Squares2X2Icon,
+} from "@heroicons/react/20/solid";
+import { Link } from "react-router-dom";
+import { selectCount } from "../../counter/counterSlice";
+import { ITEMS_PER_PAGE } from "../../../app/constants";
 
 const sortOptions = [
-  { name: 'Best Rating', sort: 'rating', order: 'desc', current: false },
-  { name: 'Price: Low to High', sort: 'discountPrice', order: 'asc', current: false },
-  { name: 'Price: High to Low', sort: 'discountPrice', order: 'desc', current: false },
+  { name: "Best Rating", sort: "rating", order: "desc", current: false },
+  {
+    name: "Price: Low to High",
+    sort: "discountPrice",
+    order: "asc",
+    current: false,
+  },
+  {
+    name: "Price: High to Low",
+    sort: "discountPrice",
+    order: "desc",
+    current: false,
+  },
 ];
 
 const filters = [
   {
-    id: 'category',
-    name: 'Category',
+    id: "category",
+    name: "Category",
     options: [
-      { value: 'fragrances', label: 'fragrances', checked: false },
-      { value: 'skincare', label: 'skincare', checked: false },
-      { value: 'groceries', label: 'groceries', checked: true },
-      { value: 'home-decoration', label: 'home-decoration', checked: false },
-      { value: 'laptops', label: 'laptops', checked: false },
-      { value: 'smartphones', label: 'smartphones', checked: false },
+      { value: "fragrances", label: "fragrances", checked: false },
+      { value: "skincare", label: "skincare", checked: false },
+      { value: "groceries", label: "groceries", checked: true },
+      { value: "home-decoration", label: "home-decoration", checked: false },
+      { value: "laptops", label: "laptops", checked: false },
+      { value: "smartphones", label: "smartphones", checked: false },
     ],
-  }
-]
+  },
+];
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function Productlist() {
   const dispatch = useDispatch();
   const products = useSelector(selectAllProducts);
-  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
+  const categories = useSelector(selectcategories);
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [filter, setFilter] = useState({});
   const [sort, setSort] = useState({});
-  const [page, setPage] = useState(1)
+  const [page, setPage] = useState(1);
+  const totalItems = useSelector(selectTotalItems);
 
+  const filters = [
+    {
+      id: "categories",
+      name: "categories",
+      options: categories,
+    },
+  ];
 
   const handleFilter = (e, section, option) => {
     console.log(e.target.checked);
@@ -67,7 +95,6 @@ export default function Productlist() {
     setFilter(newFilter);
   };
 
-
   const handleSort = (e, option) => {
     const sort = { _sort: option.sort, _order: option.order };
     console.log({ sort });
@@ -83,15 +110,30 @@ export default function Productlist() {
     dispatch(fetchProductsByFiltersAsync({ filter, sort, pagination }));
   }, [dispatch, filter, sort, page]);
 
+  useEffect(() => {
+    setPage(1);
+  }, [totalItems, sort]);
+
+  useEffect(() => {
+    dispatch(fetchCategoriesAsync());
+  });
+
   return (
     <div>
       <div className="bg-white">
         <div>
-          <MobileFilter handleFilter={handleFilter} mobileFiltersOpen={mobileFiltersOpen} setMobileFiltersOpen={setMobileFiltersOpen}></MobileFilter>
+          <MobileFilter
+            handleFilter={handleFilter}
+            mobileFiltersOpen={mobileFiltersOpen}
+            setMobileFiltersOpen={setMobileFiltersOpen}
+            filter={filter}
+          ></MobileFilter>
 
           <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-24">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900">All Products</h1>
+              <h1 className="text-4xl font-bold tracking-tight text-gray-900">
+                All Products
+              </h1>
 
               <div className="flex items-center">
                 <Menu as="div" className="relative inline-block text-left">
@@ -122,9 +164,11 @@ export default function Productlist() {
                               <p
                                 onClick={(e) => handleSort(e, option)}
                                 className={classNames(
-                                  option.current ? 'font-medium text-gray-900' : 'text-gray-500',
-                                  active ? 'bg-gray-100' : '',
-                                  'block px-4 py-2 text-sm'
+                                  option.current
+                                    ? "font-medium text-gray-900"
+                                    : "text-gray-500",
+                                  active ? "bg-gray-100" : "",
+                                  "block px-4 py-2 text-sm"
                                 )}
                               >
                                 {option.name}
@@ -132,13 +176,15 @@ export default function Productlist() {
                             )}
                           </Menu.Item>
                         ))}
-
                       </div>
                     </Menu.Items>
                   </Transition>
                 </Menu>
 
-                <button type="button" className="-m-2 ml-5 p-2 text-gray-400 hover:text-gray-500 sm:ml-7">
+                <button
+                  type="button"
+                  className="-m-2 ml-5 p-2 text-gray-400 hover:text-gray-500 sm:ml-7"
+                >
                   <span className="sr-only">View grid</span>
                   <Squares2X2Icon className="h-5 w-5" aria-hidden="true" />
                 </button>
@@ -160,31 +206,41 @@ export default function Productlist() {
 
               <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4">
                 {/* Filters */}
-                <DesktopFilter handleFilter={handleFilter}></DesktopFilter>
+                <DesktopFilter
+                  filter={filter}
+                  handleFilter={handleFilter}
+                ></DesktopFilter>
 
                 {/* Product grid */}
-                <div className="lg:col-span-3">    {/* Product Part */}
+                <div className="lg:col-span-3">
+                  {" "}
+                  {/* Product Part */}
                   <ProductGrid products={products}> </ProductGrid>
                 </div>
                 {/* Product grid end*/}
-
               </div>
             </section>
             <Pagination page={page} setPage={setPage} handlePage={handlePage} />
-
           </main>
         </div>
-      </div >
-
-    </div >
+      </div>
+    </div>
   );
 }
-function MobileFilter({ mobileFiltersOpen, setMobileFiltersOpen, handleFilter }) {
-
+function MobileFilter({
+  mobileFiltersOpen,
+  setMobileFiltersOpen,
+  handleFilter,
+  filter,
+}) {
   return (
     <div>
       <Transition.Root show={mobileFiltersOpen} as={Fragment}>
-        <Dialog as="div" className="relative z-40 lg:hidden" onClose={setMobileFiltersOpen}>
+        <Dialog
+          as="div"
+          className="relative z-40 lg:hidden"
+          onClose={setMobileFiltersOpen}
+        >
           <Transition.Child
             as={Fragment}
             enter="transition-opacity ease-linear duration-300"
@@ -223,17 +279,29 @@ function MobileFilter({ mobileFiltersOpen, setMobileFiltersOpen, handleFilter })
                 {/* Filters */}
                 <form className="mt-4 border-t border-gray-200">
                   {filters.map((section) => (
-                    <Disclosure as="div" key={section.id} className="border-t border-gray-200 px-4 py-6">
+                    <Disclosure
+                      as="div"
+                      key={section.id}
+                      className="border-t border-gray-200 px-4 py-6"
+                    >
                       {({ open }) => (
                         <>
                           <h3 className="-mx-2 -my-3 flow-root">
                             <Disclosure.Button className="flex w-full items-center justify-between bg-white px-2 py-3 text-gray-400 hover:text-gray-500">
-                              <span className="font-medium text-gray-900">{section.name}</span>
+                              <span className="font-medium text-gray-900">
+                                {section.name}
+                              </span>
                               <span className="ml-6 flex items-center">
                                 {open ? (
-                                  <MinusIcon className="h-5 w-5" aria-hidden="true" />
+                                  <MinusIcon
+                                    className="h-5 w-5"
+                                    aria-hidden="true"
+                                  />
                                 ) : (
-                                  <PlusIcon className="h-5 w-5" aria-hidden="true" />
+                                  <PlusIcon
+                                    className="h-5 w-5"
+                                    aria-hidden="true"
+                                  />
                                 )}
                               </span>
                             </Disclosure.Button>
@@ -241,13 +309,18 @@ function MobileFilter({ mobileFiltersOpen, setMobileFiltersOpen, handleFilter })
                           <Disclosure.Panel className="pt-6">
                             <div className="space-y-6">
                               {section.options.map((option, optionIdx) => (
-                                <div key={option.value} className="flex items-center">
+                                <div
+                                  key={option.value}
+                                  className="flex items-center"
+                                >
                                   <input
                                     id={`filter-mobile-${section.id}-${optionIdx}`}
                                     name={`${section.id}[]`}
                                     defaultValue={option.value}
                                     type="checkbox"
-                                    onChange={e => handleFilter(e, section, option)}
+                                    onChange={(e) =>
+                                      handleFilter(e, section, option)
+                                    }
                                     defaultChecked={option.checked}
                                     className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                   />
@@ -272,19 +345,25 @@ function MobileFilter({ mobileFiltersOpen, setMobileFiltersOpen, handleFilter })
         </Dialog>
       </Transition.Root>
     </div>
-  )
+  );
 }
-function DesktopFilter({ handleFilter }) {
+function DesktopFilter({ handleFilter, filter }) {
   return (
     <div>
       <form className="hidden lg:block">
         {filters.map((section) => (
-          <Disclosure as="div" key={section.id} className="border-b border-gray-200 py-6">
+          <Disclosure
+            as="div"
+            key={section.id}
+            className="border-b border-gray-200 py-6"
+          >
             {({ open }) => (
               <>
                 <h3 className="-my-3 flow-root">
                   <Disclosure.Button className="flex w-full items-center justify-between bg-white py-3 text-sm text-gray-400 hover:text-gray-500">
-                    <span className="font-medium text-gray-900">{section.name}</span>
+                    <span className="font-medium text-gray-900">
+                      {section.name}
+                    </span>
                     <span className="ml-6 flex items-center">
                       {open ? (
                         <MinusIcon className="h-5 w-5" aria-hidden="true" />
@@ -304,7 +383,7 @@ function DesktopFilter({ handleFilter }) {
                           defaultValue={option.value}
                           type="checkbox"
                           defaultChecked={option.checked}
-                          onChange={e => handleFilter(e, section, option)}
+                          onChange={(e) => handleFilter(e, section, option)}
                           className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                         />
                         <label
@@ -323,50 +402,66 @@ function DesktopFilter({ handleFilter }) {
         ))}
       </form>
     </div>
-  )
+  );
 }
-function Pagination({ handlePage, setPage, page, totalItems = 55 }) {
+function Pagination({ handlePage, setPage, page, totalItems }) {
+  const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
+
   return (
     <div>
       <div className="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6">
-
         <div className="flex flex-1 justify-between sm:hidden">
-          <a
-            href="#"
+          <div
+            onClick={(e) => handlePage(page > 1 ? page - 1 : page)}
             className="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
           >
             Previous
-          </a>
-          <a
-            href="#"
+          </div>
+          <div
+            onClick={(e) => handlePage(page < totalPages ? page + 1 : page)}
             className="relative ml-3 inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
           >
             Next
-          </a>
+          </div>
         </div>
         <div className="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
           <div>
             <p className="text-sm text-gray-700">
-              Showing <span className="font-medium">{(page - 1) * ITEMS_PER_PAGE + 1}</span> to
-              <span className="font-medium">{page * ITEMS_PER_PAGE}</span> of{' '}
-              <span className="font-medium">{totalItems}</span> results
+              Showing{" "}
+              <span className="font-medium">
+                {(page - 1) * ITEMS_PER_PAGE + 1}
+              </span>{" "}
+              to
+              <span className="font-medium">
+                {page * ITEMS_PER_PAGE > totalItems
+                  ? totalItems
+                  : page * ITEMS_PER_PAGE}
+              </span>{" "}
+              of <span className="font-medium">{totalItems}</span> results
             </p>
           </div>
           <div>
-            <nav className="isolate inline-flex -space-x-px rounded-md shadow-sm" aria-label="Pagination">
-              <a
-                href="#"
+            <nav
+              className="isolate inline-flex -space-x-px rounded-md shadow-sm"
+              aria-label="Pagination"
+            >
+              <div
+                onClick={(e) => handlePage(page > 1 ? page - 1 : page)}
                 className="relative inline-flex items-center rounded-l-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
               >
                 <span className="sr-only">Previous</span>
                 <ChevronLeftIcon className="h-5 w-5" aria-hidden="true" />
-              </a>
+              </div>
               {/* Current: "z-10 bg-indigo-600 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600", Default: "text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:outline-offset-0" */}
-              {Array.from({ length: Math.ceil(totalItems / ITEMS_PER_PAGE) }).map((el, index) => (
+              {Array.from({ length: totalPages }).map((el, index) => (
                 <div
-                  onClick={e => handlePage(index + 1)}
+                  onClick={(e) => handlePage(index + 1)}
                   aria-current="page"
-                  className={`relative z-10 inline-flex cursor-pointer items-center ${index + 1 === page ? 'bg-indigo-600 text-white' : 'text-gray-400'} 
+                  className={`relative z-10 inline-flex cursor-pointer items-center ${
+                    index + 1 === page
+                      ? "bg-indigo-600 text-white"
+                      : "text-gray-400"
+                  } 
                   px-4 py-2 text-sm font-semibold  focus:z-20 
                   focus-visible:outline focus-visible:outline-2 
                   focus-visible:outline-offset-2 focus-visible:outline-indigo-600`}
@@ -375,20 +470,19 @@ function Pagination({ handlePage, setPage, page, totalItems = 55 }) {
                 </div>
               ))}
 
-
-              <a
-                href="#"
+              <div
+                onClick={(e) => handlePage(page < totalItems ? page + 1 : page)}
                 className="relative inline-flex items-center rounded-r-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
               >
                 <span className="sr-only">Next</span>
                 <ChevronRightIcon className="h-5 w-5" aria-hidden="true" />
-              </a>
+              </div>
             </nav>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 function ProductGrid({ products }) {
   return (
@@ -397,8 +491,10 @@ function ProductGrid({ products }) {
         <div className="mx-auto max-w-2xl px-4 py-2 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
             {products.map((product) => (
-              <Link to="/Productdetailpage">
-                <div key={product.id} className="group relative border-solid border-gray-200 p-2 border-2">
+              <Link to={`/Productdetailpage/${product.id}`} key={product.id}>
+                <div
+                  className="group relative border-solid border-gray-200 p-2 border-2"
+                >
                   <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                     <img
                       src={product.thumbnail}
@@ -410,19 +506,28 @@ function ProductGrid({ products }) {
                     <div>
                       <h3 className="text-sm text-gray-700">
                         <a href={product.href}>
-                          <span aria-hidden="true" className="absolute inset-0" />
+                          <span
+                            aria-hidden="true"
+                            className="absolute inset-0"
+                          />
                           {product.title}
                         </a>
                       </h3>
                       <p className="mt-1 text-sm text-gray-500">
                         <StarIcon className="w-6 h-6 inline"></StarIcon>
-                        <span className='align-bottom'>{product.rating}</span>
+                        <span className="align-bottom">{product.rating}</span>
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm font-medium text-gray-900">${Math.round(product.price * (1 - product.discountPercentage / 100))}</p>
-                      <p className="text-sm font-medium  text-gray-500">${product.price}</p>
-
+                      <p className="text-sm font-medium text-gray-900">
+                        $
+                        {Math.round(
+                          product.price * (1 - product.discountPercentage / 100)
+                        )}
+                      </p>
+                      <p className="text-sm font-medium  text-gray-500">
+                        ${product.price}
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -432,6 +537,5 @@ function ProductGrid({ products }) {
         </div>
       </div>
     </div>
-  )
+  );
 }
-
