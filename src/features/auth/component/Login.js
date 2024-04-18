@@ -34,7 +34,7 @@ export function Login() {
             noValidate
             onSubmit={handleSubmit((data) => {
               dispatch(
-                checkUserAsync({ email: data.email, password: data.password })
+                checkUserAsync({ email: data.email, password: data.password,addresses:[] })
               );
             })}
             className="space-y-6"

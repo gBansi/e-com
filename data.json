@@ -10,12 +10,12 @@
       "stock": 0,
       "brand": "Apple",
       "category": "smartphones",
-      "thumbnail": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818",
+      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
       "images": [
-        "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818",
-        "https://fl-img-media.s3.amazonaws.com/uploads/2020/11/Logo-only.png",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeizyn8SwFNfeJdYexfcqyurpCe47SKVR0Ew&s",
-        "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818"
+        "https://i.dummyjson.com/data/products/1/1.jpg",
+        "https://i.dummyjson.com/data/products/1/2.jpg",
+        "https://i.dummyjson.com/data/products/1/3.jpg",
+        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
       ],
       "deleted": true
     },
@@ -1863,469 +1863,469 @@
       "value": "Apple",
       "label": "Apple",
       "checked": false,
-      "id": "228c"
+      "id": "1e52"
     },
     {
       "value": "Samsung",
       "label": "Samsung",
       "checked": false,
-      "id": "0e6c"
+      "id": "9927"
     },
     {
       "value": "OPPO",
       "label": "OPPO",
       "checked": false,
-      "id": "fe1a"
+      "id": "fab9"
     },
     {
       "value": "Huawei",
       "label": "Huawei",
       "checked": false,
-      "id": "1666"
+      "id": "ecb4"
     },
     {
       "value": "Microsoft Surface",
       "label": "Microsoft Surface",
       "checked": false,
-      "id": "7404"
+      "id": "6e42"
     },
     {
       "value": "Infinix",
       "label": "Infinix",
       "checked": false,
-      "id": "37e1"
+      "id": "6cfa"
     },
     {
       "value": "HP Pavilion",
       "label": "HP Pavilion",
       "checked": false,
-      "id": "d075"
+      "id": "2ac3"
     },
     {
       "value": "Impression of Acqua Di Gio",
       "label": "Impression of Acqua Di Gio",
       "checked": false,
-      "id": "a72d"
+      "id": "f78f"
     },
     {
       "value": "Royal_Mirage",
       "label": "Royal_Mirage",
       "checked": false,
-      "id": "0b62"
+      "id": "9fab"
     },
     {
       "value": "Fog Scent Xpressio",
       "label": "Fog Scent Xpressio",
       "checked": false,
-      "id": "e19a"
+      "id": "7ecd"
     },
     {
       "value": "Al Munakh",
       "label": "Al Munakh",
       "checked": false,
-      "id": "648e"
+      "id": "5730"
     },
     {
       "value": "Lord - Al-Rehab",
       "label": "Lord   Al Rehab",
       "checked": false,
-      "id": "0bdc"
+      "id": "3d01"
     },
     {
       "value": "L'Oreal Paris",
       "label": "L'Oreal Paris",
       "checked": false,
-      "id": "dc04"
+      "id": "0536"
     },
     {
       "value": "Hemani Tea",
       "label": "Hemani Tea",
       "checked": false,
-      "id": "d66f"
+      "id": "be77"
     },
     {
       "value": "Dermive",
       "label": "Dermive",
       "checked": false,
-      "id": "8d77"
+      "id": "5713"
     },
     {
       "value": "ROREC White Rice",
       "label": "ROREC White Rice",
       "checked": false,
-      "id": "bf01"
+      "id": "e1b1"
     },
     {
       "value": "Fair & Clear",
       "label": "Fair & Clear",
       "checked": false,
-      "id": "3bc0"
+      "id": "1b8c"
     },
     {
       "value": "Saaf & Khaas",
       "label": "Saaf & Khaas",
       "checked": false,
-      "id": "1c3e"
+      "id": "c3b7"
     },
     {
       "value": "Bake Parlor Big",
       "label": "Bake Parlor Big",
       "checked": false,
-      "id": "c681"
+      "id": "92de"
     },
     {
       "value": "Baking Food Items",
       "label": "Baking Food Items",
       "checked": false,
-      "id": "93ef"
+      "id": "3051"
     },
     {
       "value": "fauji",
       "label": "fauji",
       "checked": false,
-      "id": "4b23"
+      "id": "c2d0"
     },
     {
       "value": "Dry Rose",
       "label": "Dry Rose",
       "checked": false,
-      "id": "c8a4"
+      "id": "de03"
     },
     {
       "value": "Boho Decor",
       "label": "Boho Decor",
       "checked": false,
-      "id": "665e"
+      "id": "6e91"
     },
     {
       "value": "Flying Wooden",
       "label": "Flying Wooden",
       "checked": false,
-      "id": "76d7"
+      "id": "6351"
     },
     {
       "value": "LED Lights",
       "label": "LED Lights",
       "checked": false,
-      "id": "661d"
+      "id": "6edd"
     },
     {
       "value": "luxury palace",
       "label": "luxury palace",
       "checked": false,
-      "id": "8f22"
+      "id": "25c6"
     },
     {
       "value": "Golden",
       "label": "Golden",
       "checked": false,
-      "id": "d7d4"
+      "id": "7701"
     },
     {
       "value": "Furniture Bed Set",
       "label": "Furniture Bed Set",
       "checked": false,
-      "id": "398e"
+      "id": "f551"
     },
     {
       "value": "Ratttan Outdoor",
       "label": "Ratttan Outdoor",
       "checked": false,
-      "id": "ac3a"
+      "id": "c7ce"
     },
     {
       "value": "Kitchen Shelf",
       "label": "Kitchen Shelf",
       "checked": false,
-      "id": "4f3a"
+      "id": "7c75"
     },
     {
       "value": "Multi Purpose",
       "label": "Multi Purpose",
       "checked": false,
-      "id": "4b7c"
+      "id": "886e"
     },
     {
       "value": "AmnaMart",
       "label": "AmnaMart",
       "checked": false,
-      "id": "0be4"
+      "id": "a158"
     },
     {
       "value": "Professional Wear",
       "label": "Professional Wear",
       "checked": false,
-      "id": "61d2"
+      "id": "0971"
     },
     {
       "value": "Soft Cotton",
       "label": "Soft Cotton",
       "checked": false,
-      "id": "0c85"
+      "id": "b771"
     },
     {
       "value": "Top Sweater",
       "label": "Top Sweater",
       "checked": false,
-      "id": "eb25"
+      "id": "105c"
     },
     {
       "value": "RED MICKY MOUSE..",
       "label": "RED MICKY MOUSE..",
       "checked": false,
-      "id": "c047"
+      "id": "c52d"
     },
     {
       "value": "Digital Printed",
       "label": "Digital Printed",
       "checked": false,
-      "id": "ea36"
+      "id": "5ffc"
     },
     {
       "value": "Ghazi Fabric",
       "label": "Ghazi Fabric",
       "checked": false,
-      "id": "e3be"
+      "id": "3744"
     },
     {
       "value": "IELGY",
       "label": "IELGY",
       "checked": false,
-      "id": "e93e"
+      "id": "793b"
     },
     {
       "value": "IELGY fashion",
       "label": "IELGY fashion",
       "checked": false,
-      "id": "e724"
+      "id": "984e"
     },
     {
       "value": "Synthetic Leather",
       "label": "Synthetic Leather",
       "checked": false,
-      "id": "d9ca"
+      "id": "3d76"
     },
     {
       "value": "Sandals Flip Flops",
       "label": "Sandals Flip Flops",
       "checked": false,
-      "id": "5ac4"
+      "id": "a0bd"
     },
     {
       "value": "Maasai Sandals",
       "label": "Maasai Sandals",
       "checked": false,
-      "id": "2848"
+      "id": "63d2"
     },
     {
       "value": "Arrivals Genuine",
       "label": "Arrivals Genuine",
       "checked": false,
-      "id": "a424"
+      "id": "28ab"
     },
     {
       "value": "Vintage Apparel",
       "label": "Vintage Apparel",
       "checked": false,
-      "id": "b4f2"
+      "id": "4428"
     },
     {
       "value": "FREE FIRE",
       "label": "FREE FIRE",
       "checked": false,
-      "id": "678e"
+      "id": "3387"
     },
     {
       "value": "The Warehouse",
       "label": "The Warehouse",
       "checked": false,
-      "id": "d8b5"
+      "id": "2013"
     },
     {
       "value": "Sneakers",
       "label": "Sneakers",
       "checked": false,
-      "id": "028b"
+      "id": "e9cc"
     },
     {
       "value": "Rubber",
       "label": "Rubber",
       "checked": false,
-      "id": "15b9"
+      "id": "999c"
     },
     {
       "value": "Naviforce",
       "label": "Naviforce",
       "checked": false,
-      "id": "7340"
+      "id": "2c44"
     },
     {
       "value": "SKMEI 9117",
       "label": "SKMEI 9117",
       "checked": false,
-      "id": "42b1"
+      "id": "5416"
     },
     {
       "value": "Strap Skeleton",
       "label": "Strap Skeleton",
       "checked": false,
-      "id": "258b"
+      "id": "d1a5"
     },
     {
       "value": "Stainless",
       "label": "Stainless",
       "checked": false,
-      "id": "097d"
+      "id": "9666"
     },
     {
       "value": "Eastern Watches",
       "label": "Eastern Watches",
       "checked": false,
-      "id": "9208"
+      "id": "f779"
     },
     {
       "value": "Luxury Digital",
       "label": "Luxury Digital",
       "checked": false,
-      "id": "9119"
+      "id": "4450"
     },
     {
       "value": "Watch Pearls",
       "label": "Watch Pearls",
       "checked": false,
-      "id": "3b96"
+      "id": "8e00"
     },
     {
       "value": "Bracelet",
       "label": "Bracelet",
       "checked": false,
-      "id": "6522"
+      "id": "ddfe"
     },
     {
       "value": "LouisWill",
       "label": "LouisWill",
       "checked": false,
-      "id": "0a56"
+      "id": "9945"
     },
     {
       "value": "Copenhagen Luxe",
       "label": "Copenhagen Luxe",
       "checked": false,
-      "id": "f0d3"
+      "id": "38ec"
     },
     {
       "value": "Steal Frame",
       "label": "Steal Frame",
       "checked": false,
-      "id": "a49d"
+      "id": "411e"
     },
     {
       "value": "Darojay",
       "label": "Darojay",
       "checked": false,
-      "id": "ee97"
+      "id": "238e"
     },
     {
       "value": "Fashion Jewellery",
       "label": "Fashion Jewellery",
       "checked": false,
-      "id": "7886"
+      "id": "db8a"
     },
     {
       "value": "Cuff Butterfly",
       "label": "Cuff Butterfly",
       "checked": false,
-      "id": "985b"
+      "id": "ba1c"
     },
     {
       "value": "Designer Sun Glasses",
       "label": "Designer Sun Glasses",
       "checked": false,
-      "id": "b9ca"
+      "id": "74d5"
     },
     {
       "value": "mastar watch",
       "label": "mastar watch",
       "checked": false,
-      "id": "66ee"
+      "id": "9884"
     },
     {
       "value": "Car Aux",
       "label": "Car Aux",
       "checked": false,
-      "id": "08e7"
+      "id": "7814"
     },
     {
       "value": "W1209 DC12V",
       "label": "W1209 DC12V",
       "checked": false,
-      "id": "646d"
+      "id": "c3d8"
     },
     {
       "value": "TC Reusable",
       "label": "TC Reusable",
       "checked": false,
-      "id": "e0bd"
+      "id": "68ac"
     },
     {
       "value": "Neon LED Light",
       "label": "Neon LED Light",
       "checked": false,
-      "id": "ec85"
+      "id": "6648"
     },
     {
       "value": "METRO 70cc Motorcycle - MR70",
       "label": "METRO 70cc Motorcycle   MR70",
       "checked": false,
-      "id": "61f5"
+      "id": "39da"
     },
     {
       "value": "BRAVE BULL",
       "label": "BRAVE BULL",
       "checked": false,
-      "id": "f97a"
+      "id": "6fc0"
     },
     {
       "value": "shock absorber",
       "label": "shock absorber",
       "checked": false,
-      "id": "5e3c"
+      "id": "d8c1"
     },
     {
       "value": "JIEPOLLY",
       "label": "JIEPOLLY",
       "checked": false,
-      "id": "532a"
+      "id": "5d4b"
     },
     {
       "value": "Xiangle",
       "label": "Xiangle",
       "checked": false,
-      "id": "1b2b"
+      "id": "1771"
     },
     {
       "value": "lightingbrilliance",
       "label": "lightingbrilliance",
       "checked": false,
-      "id": "e9a6"
+      "id": "bf04"
     },
     {
       "value": "Ifei Home",
       "label": "Ifei Home",
       "checked": false,
-      "id": "fe17"
+      "id": "e57c"
     },
     {
       "value": "DADAWU",
       "label": "DADAWU",
       "checked": false,
-      "id": "c79f"
+      "id": "b762"
     },
     {
       "value": "YIOSI",
       "label": "YIOSI",
       "checked": false,
-      "id": "7423"
+      "id": "5730"
     }
   ],
   "categories": [
@@ -2333,121 +2333,121 @@
       "value": "smartphones",
       "label": "smartphones",
       "checked": false,
-      "id": "7226"
+      "id": "8014"
     },
     {
       "value": "laptops",
       "label": "laptops",
       "checked": false,
-      "id": "5f6d"
+      "id": "7866"
     },
     {
       "value": "fragrances",
       "label": "fragrances",
       "checked": false,
-      "id": "4803"
+      "id": "1d7b"
     },
     {
       "value": "skincare",
       "label": "skincare",
       "checked": false,
-      "id": "78c0"
+      "id": "b934"
     },
     {
       "value": "groceries",
       "label": "groceries",
       "checked": false,
-      "id": "d4db"
+      "id": "5e25"
     },
     {
       "value": "home-decoration",
       "label": "home decoration",
       "checked": false,
-      "id": "5bc4"
+      "id": "134a"
     },
     {
       "value": "furniture",
       "label": "furniture",
       "checked": false,
-      "id": "8cd5"
+      "id": "4e7a"
     },
     {
       "value": "tops",
       "label": "tops",
       "checked": false,
-      "id": "ebcb"
+      "id": "e4b9"
     },
     {
       "value": "womens-dresses",
       "label": "womens dresses",
       "checked": false,
-      "id": "6674"
+      "id": "2529"
     },
     {
       "value": "womens-shoes",
       "label": "womens shoes",
       "checked": false,
-      "id": "d630"
+      "id": "c514"
     },
     {
       "value": "mens-shirts",
       "label": "mens shirts",
       "checked": false,
-      "id": "383d"
+      "id": "c547"
     },
     {
       "value": "mens-shoes",
       "label": "mens shoes",
       "checked": false,
-      "id": "3b8d"
+      "id": "0f09"
     },
     {
       "value": "mens-watches",
       "label": "mens watches",
       "checked": false,
-      "id": "ae78"
+      "id": "fcdc"
     },
     {
       "value": "womens-watches",
       "label": "womens watches",
       "checked": false,
-      "id": "6a63"
+      "id": "6fc5"
     },
     {
       "value": "womens-bags",
       "label": "womens bags",
       "checked": false,
-      "id": "a174"
+      "id": "497e"
     },
     {
       "value": "womens-jewellery",
       "label": "womens jewellery",
       "checked": false,
-      "id": "18f3"
+      "id": "50cb"
     },
     {
       "value": "sunglasses",
       "label": "sunglasses",
       "checked": false,
-      "id": "9a1c"
+      "id": "f568"
     },
     {
       "value": "automotive",
       "label": "automotive",
       "checked": false,
-      "id": "9c2e"
+      "id": "bb9d"
     },
     {
       "value": "motorcycle",
       "label": "motorcycle",
       "checked": false,
-      "id": "d2f4"
+      "id": "fcf4"
     },
     {
       "value": "lighting",
       "label": "lighting",
       "checked": false,
-      "id": "beb4"
+      "id": "0ada"
     }
   ],
   "users": [
@@ -2502,101 +2502,43 @@
       "id": "3"
     },
     {
-      "id": "35ce",
+      "id": "d186",
       "email": "dev.bansi.bluesoltech@gmail.com",
       "password": "Bansi@321",
-      "confirm_password": "Bansi@321"
-    },
-    {
-      "id": "72a3",
-      "email": "dev.bansi.bluesoltech@gmail.com",
-      "password": "123456789@Bansi",
-      "confirm_password": "123456789@Bansi"
+      "confirm_password": "Bansi@321",
+      "addresses": [
+        {
+          "name": "Bansi",
+          "email": "dev.bansi.bluesoltech@gmail.com",
+          "phone": "01234567890",
+          "street-address": "123",
+          "city": "rajkot",
+          "state": "rajkot",
+          "pincode": "364465"
+        }
+      ]
     }
   ],
   "cart": [
     {
-      "id": "1",
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 993,
-      "discountPercentage": 12.96,
-      "rating": 0,
-      "stock": 0,
-      "brand": "Apple",
+      "title": "Huawei P30",
+      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "price": 499,
+      "discountPercentage": 10.58,
+      "rating": 4.09,
+      "stock": 32,
+      "brand": "Huawei",
       "category": "smartphones",
-      "thumbnail": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818",
+      "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
       "images": [
-        "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818",
-        "https://fl-img-media.s3.amazonaws.com/uploads/2020/11/Logo-only.png",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeizyn8SwFNfeJdYexfcqyurpCe47SKVR0Ew&s",
-        "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818"
+        "https://i.dummyjson.com/data/products/5/1.jpg",
+        "https://i.dummyjson.com/data/products/5/2.jpg",
+        "https://i.dummyjson.com/data/products/5/3.jpg"
       ],
-      "deleted": true,
-      "quantity": 2,
-      "user": "35ce"
-    },
-    {
-      "id": "1",
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 993,
-      "discountPercentage": 12.96,
-      "rating": 0,
-      "stock": 0,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818",
-      "images": [
-        "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818",
-        "https://fl-img-media.s3.amazonaws.com/uploads/2020/11/Logo-only.png",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeizyn8SwFNfeJdYexfcqyurpCe47SKVR0Ew&s",
-        "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818"
-      ],
-      "deleted": true,
+      "productId": 5,
       "quantity": 1,
-      "user": "35ce"
-    },
-    {
-      "id": "6",
-      "title": "MacBook Pro",
-      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1999,
-      "discountPercentage": 11.02,
-      "rating": 0,
-      "stock": 83,
-      "brand": "Apple",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-      "images": [
-        "https://i.dummyjson.com/data/products/6/1.png",
-        "https://i.dummyjson.com/data/products/6/2.jpg",
-        "https://i.dummyjson.com/data/products/6/3.png",
-        "https://i.dummyjson.com/data/products/6/thumbnail.png"
-      ],
-      "quantity": 1,
-      "user": "35ce"
-    },
-    {
-      "id": "abbb",
-      "title": "Freckle Treatment Cream- 15gm",
-      "description": "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
-      "price": 70,
-      "discountPercentage": 16.99,
-      "rating": 4.06,
-      "stock": 140,
-      "brand": "Fair & Clear",
-      "category": "skincare",
-      "thumbnail": "https://i.dummyjson.com/data/products/20/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/20/1.jpg",
-        "https://i.dummyjson.com/data/products/20/2.jpg",
-        "https://i.dummyjson.com/data/products/20/3.jpg",
-        "https://i.dummyjson.com/data/products/20/4.jpg",
-        "https://i.dummyjson.com/data/products/20/thumbnail.jpg"
-      ],
-      "quantity": 1,
-      "user": "35ce"
+      "user": 2,
+      "id": "1"
     }
   ],
   "orders": [
@@ -3295,6 +3237,301 @@
       },
       "status": "pending",
       "id": "11"
+    },
+    {
+      "id": "47fa",
+      "items": [
+        {
+          "id": "c6f9",
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 1111,
+          "discountPercentage": 17.94,
+          "rating": 0,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "deleted": true,
+          "quantity": 1,
+          "user": "d186"
+        }
+      ],
+      "totalAmount": 1111,
+      "totalItems": 1,
+      "user": {
+        "id": "d186",
+        "email": "dev.bansi.bluesoltech@gmail.com",
+        "password": "Bansi@321",
+        "confirm_password": "Bansi@321",
+        "addresses": [
+          {
+            "name": "Bansi",
+            "email": "dev.bansi.bluesoltech@gmail.com",
+            "phone": "01234567890",
+            "street-address": "123",
+            "city": "rajkot",
+            "state": "rajkot",
+            "pincode": "364465"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Bansi",
+        "email": "dev.bansi.bluesoltech@gmail.com",
+        "phone": "01234567890",
+        "street-address": "123",
+        "city": "rajkot",
+        "state": "rajkot",
+        "pincode": "364465"
+      },
+      "status": "panding"
+    },
+    {
+      "id": "5c14",
+      "items": [
+        {
+          "id": "c1c2",
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 1111,
+          "discountPercentage": 17.94,
+          "rating": 0,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "deleted": true,
+          "quantity": 1,
+          "user": "d186"
+        },
+        {
+          "id": "101e",
+          "title": "perfume Oil",
+          "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+          "price": 13,
+          "discountPercentage": 8.4,
+          "rating": 4.26,
+          "stock": 65,
+          "brand": "Impression of Acqua Di Gio",
+          "category": "fragrances",
+          "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/11/1.jpg",
+            "https://i.dummyjson.com/data/products/11/2.jpg",
+            "https://i.dummyjson.com/data/products/11/3.jpg",
+            "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "d186"
+        }
+      ],
+      "totalAmount": 1124,
+      "totalItems": 2,
+      "user": {
+        "id": "d186",
+        "email": "dev.bansi.bluesoltech@gmail.com",
+        "password": "Bansi@321",
+        "confirm_password": "Bansi@321",
+        "addresses": [
+          {
+            "name": "Bansi",
+            "email": "dev.bansi.bluesoltech@gmail.com",
+            "phone": "01234567890",
+            "street-address": "123",
+            "city": "rajkot",
+            "state": "rajkot",
+            "pincode": "364465"
+          }
+        ]
+      },
+      "paymentMethod": "payment",
+      "selectedAddress": {
+        "name": "Bansi",
+        "email": "dev.bansi.bluesoltech@gmail.com",
+        "phone": "01234567890",
+        "street-address": "123",
+        "city": "rajkot",
+        "state": "rajkot",
+        "pincode": "364465"
+      },
+      "status": "panding"
+    },
+    {
+      "id": "a4c9",
+      "items": [
+        {
+          "id": "2d9a",
+          "title": "Hyaluronic Acid Serum",
+          "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
+          "price": 19,
+          "discountPercentage": 13.31,
+          "rating": 4.83,
+          "stock": 110,
+          "brand": "L'Oreal Paris",
+          "category": "skincare",
+          "thumbnail": "https://i.dummyjson.com/data/products/16/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/16/1.png",
+            "https://i.dummyjson.com/data/products/16/2.webp",
+            "https://i.dummyjson.com/data/products/16/3.jpg",
+            "https://i.dummyjson.com/data/products/16/4.jpg",
+            "https://i.dummyjson.com/data/products/16/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "d186"
+        }
+      ],
+      "totalAmount": 19,
+      "totalItems": 1,
+      "user": {
+        "id": "d186",
+        "email": "dev.bansi.bluesoltech@gmail.com",
+        "password": "Bansi@321",
+        "confirm_password": "Bansi@321",
+        "addresses": [
+          {
+            "name": "Bansi",
+            "email": "dev.bansi.bluesoltech@gmail.com",
+            "phone": "01234567890",
+            "street-address": "123",
+            "city": "rajkot",
+            "state": "rajkot",
+            "pincode": "364465"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": null,
+      "status": "panding"
+    },
+    {
+      "id": "9d0f",
+      "items": [
+        {
+          "id": "791c",
+          "title": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 993,
+          "discountPercentage": 12.96,
+          "rating": 0,
+          "stock": 0,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/1/1.jpg",
+            "https://i.dummyjson.com/data/products/1/2.jpg",
+            "https://i.dummyjson.com/data/products/1/3.jpg",
+            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+          ],
+          "deleted": true,
+          "quantity": 1,
+          "user": "d186"
+        }
+      ],
+      "totalAmount": 993,
+      "totalItems": 1,
+      "user": {
+        "id": "d186",
+        "email": "dev.bansi.bluesoltech@gmail.com",
+        "password": "Bansi@321",
+        "confirm_password": "Bansi@321",
+        "addresses": [
+          {
+            "name": "Bansi",
+            "email": "dev.bansi.bluesoltech@gmail.com",
+            "phone": "01234567890",
+            "street-address": "123",
+            "city": "rajkot",
+            "state": "rajkot",
+            "pincode": "364465"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Bansi",
+        "email": "dev.bansi.bluesoltech@gmail.com",
+        "phone": "01234567890",
+        "street-address": "123",
+        "city": "rajkot",
+        "state": "rajkot",
+        "pincode": "364465"
+      },
+      "status": "panding"
+    }
+  ],
+  "sliver": [
+    {
+      "id": "1",
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 993,
+      "discountPercentage": 12.96,
+      "rating": 0,
+      "stock": 0,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/1/1.jpg",
+        "https://i.dummyjson.com/data/products/1/2.jpg",
+        "https://i.dummyjson.com/data/products/1/3.jpg",
+        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+      ],
+      "deleted": true
+    },
+    {
+      "id": "2",
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 993,
+      "discountPercentage": 12.96,
+      "rating": 0,
+      "stock": 0,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/1/1.jpg",
+        "https://i.dummyjson.com/data/products/1/2.jpg",
+        "https://i.dummyjson.com/data/products/1/3.jpg",
+        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+      ],
+      "deleted": true
+    },
+    {
+      "id": "3",
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 993,
+      "discountPercentage": 12.96,
+      "rating": 0,
+      "stock": 0,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/1/1.jpg",
+        "https://i.dummyjson.com/data/products/1/2.jpg",
+        "https://i.dummyjson.com/data/products/1/3.jpg",
+        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+      ],
+      "deleted": true
     }
   ]
 }
