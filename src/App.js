@@ -22,72 +22,81 @@ import Ordersuccesspage from "./pages/Ordersuccesspage.js";
 import UserOrders from "./features/user/components/UserOrders.js";
 import Product from "./pages/Product.js";
 import Navbar from "./features/navbar/Navbar.js";
+import Logout from "./features/auth/component/Logout.js";
+import Forgotpassword from "./features/auth/component/ForgotPassword.js";
+import Adminproductdetailpage from "./pages/Adminproductdetailpage.js";
+import Adminproductlistpage from "./pages/Adminproductlistpage.js";
+import ProtectedAdmin from "./features/auth/component/ProtectedAdmin.js";
+import UserProfile from "./features/user/components/UserProfile.js";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <Protected>
-        <Home />
-      </Protected>
-    ),
+
+    element:<Protected><Home /></Protected>
   },
   {
     path: "/login",
     element: <Loginpage />,
   },
   {
+    path: "/login",
+    element: <Loginpage />,
+  },
+  {
+    path: "/Forgotpassword",
+    element: <Forgotpassword />,
+  },
+  {
     path: "/signup",
     element: <Signuppage />,
   },
+ 
   {
     path: "/Cartpage",
-    element: (
-      <Protected>
-        <Cartpage />
-      </Protected>
-    ),
+
+    element: <Protected><Cartpage /></Protected>,
   },
   {
     path: "/Product",
-    element: (
-      <Protected>
-       <Product/>
-      </Protected>
-    ),
+    element: <Protected><Product /></Protected>,
   },
   {
     path: "/Checkout",
-    element: (
-      <Protected>
-        <Checkout />
-      </Protected>
-    ),
+    element:<Protected><Checkout /></Protected> ,
+  },
+  {
+    path: "/UserProfile",
+    element: <UserProfile/>
   },
   {
     path: "/Productdetailpage/:id",
+    element: <Productdetailpage />,
+  },
+  {
+    path: "/Adminproductdetailpage",
     element: (
-      <Protected>
-        <Productdetailpage />
-      </Protected>
+      <ProtectedAdmin>
+        <Adminproductdetailpage />
+      </ProtectedAdmin>
     ),
   },
   {
-    path: "/my-orders",
+    path: "/Adminproductlistpage",
     element: (
-      <UserOrders/>
+      <ProtectedAdmin>
+        <Adminproductlistpage />
+      </ProtectedAdmin>
     ),
   },
-
+  {
+    path: "/UserOrders/",
+    element: <UserOrders />,
+  },
   {
     path: "/Ordersuccesspage/:id",
-    element: (
-      <Protected>
-        <Ordersuccesspage />
-      </Protected>
-    ),
+    element: <Ordersuccesspage />,
   },
-  
   {
     path: "*",
     element: <PageNotFound />,

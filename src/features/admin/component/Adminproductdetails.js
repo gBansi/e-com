@@ -4,7 +4,7 @@ import { RadioGroup } from "@headlessui/react";
 import { fetchProductByIdAsync } from "../ProductSlice";
 import { useSelector, useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
-import { selectProductById } from "../ProductSlice";
+import { selectProductById } from "../../product-list/ProductSlice";
 import { addToCartAsync } from "../../cart/cartSlice";
 import {selectLoggedInUser} from '../../auth/AuthSlice'
 
@@ -34,7 +34,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Productdetails() {
+export default function AdminProductdetails() {
   const [selectedColor, setSelectedColor] = useState(colors[0]);
   const [selectedSize, setSelectedSize] = useState(sizes[2]);
   const product = useSelector(selectProductById);
@@ -44,7 +44,7 @@ export default function Productdetails() {
 
   const handleCart = (e)=> {
     e.preventDefault()
-    const newItem = {...product,quantity:1,user:user.id,}
+    const newItem = {...product,quantity:1,user:user.id}
     delete newItem['id'];
    dispatch(addToCartAsync(newItem))
   }

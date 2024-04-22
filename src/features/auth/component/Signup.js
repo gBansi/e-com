@@ -34,7 +34,7 @@ console.log (errors)
             noValidate
             className="space-y-6"
             onSubmit={handleSubmit((data) => {
-                dispatch(createUserAsync({email:data.email,password:data.password,confirm_password:data.confirm_password, addresses:[]}));
+                dispatch(createUserAsync({email:data.email,password:data.password,confirm_password:data.confirm_password, addresses:[],role:'user'}));
               console.log(data);
             })}
           >

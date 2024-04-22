@@ -23,11 +23,13 @@ const navigation = [
   { name: "Products", link: "/product", current: false },
   { name: "Contact", link: "#", current: false },
 ];
+
 const userNavigation = [
-  { name: "Your Profile", link: "/profile" },
-  { name: "My Orders", link: "/my-orders" },
-  { name: "Sign out", link: "/login" },
-];
+  { name: "My Orders", link: "/UserOrders"},
+  { name: "Profile", link: "/UserProfile"},
+  { name: "Sign out", link: "/Logout" },
+  { name: "Login", link: "/login" },
+]; 
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -117,15 +119,15 @@ function Navbar({ children }) {
                           {userNavigation.map((item) => (
                             <Menu.Item key={item.name}>
                               {({ active }) => (
-                                <a
-                                  link={item.link}
+                                <Link
+                                  to={item.link}
                                   className={classNames(
                                     active ? "bg-gray-100" : "",
                                     "block px-4 py-2 text-sm text-gray-700"
                                   )}
                                 >
                                   {item.name}
-                                </a>
+                                </Link>
                               )}
                             </Menu.Item>
                           ))}

@@ -13,8 +13,8 @@ import { useSelector, useDispatch } from "react-redux";
 import { useForm } from "react-hook-form";
 import {
   selectLoggedInUser,
-  updateUserAsync,
 } from "../features/auth/AuthSlice";
+import {updateUserAsync} from "../features/user/userSlice"
 import { createOrderAsync, selectCurrentOrder } from "../features/order/orderSlice";
 
 const Checkout = () => {

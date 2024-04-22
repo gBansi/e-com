@@ -24,6 +24,13 @@ export function updateUser(update) {
   }
   );
 }
+export function SignOut(userId) {
+  return new Promise(async (resolve) =>{
+
+    resolve({data:'success'})
+  }
+  );
+}
 export function checkUser(loginInfo) {
   return new Promise(async (resolve,reject) =>{
     const email = loginInfo.email;
