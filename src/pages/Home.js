@@ -8,7 +8,8 @@ function Home() {
             <Navbar>
                 {/* <Productlist/> */}
                 <h1>Homepage</h1>
-                <Link to='admin'></Link>
+                <Link to='/admin'>Admin</Link>
+
             </Navbar>
         </div>
      );

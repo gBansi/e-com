@@ -28,12 +28,17 @@ import Adminproductdetailpage from "./pages/Adminproductdetailpage.js";
 import Adminproductlistpage from "./pages/Adminproductlistpage.js";
 import ProtectedAdmin from "./features/auth/component/ProtectedAdmin.js";
 import UserProfile from "./features/user/components/UserProfile.js";
+import ProductForm from "./features/admin/component/ProductForm.js";
 
 const router = createBrowserRouter([
   {
     path: "/",
 
-    element:<Protected><Home /></Protected>
+    element: (
+      <Protected>
+        <Home />
+      </Protected>
+    ),
   },
   {
     path: "/login",
@@ -51,30 +56,42 @@ const router = createBrowserRouter([
     path: "/signup",
     element: <Signuppage />,
   },
- 
+
   {
     path: "/Cartpage",
 
-    element: <Protected><Cartpage /></Protected>,
+    element: (
+      <Protected>
+        <Cartpage />
+      </Protected>
+    ),
   },
   {
     path: "/Product",
-    element: <Protected><Product /></Protected>,
+    element: (
+      <Protected>
+        <Product />
+      </Protected>
+    ),
   },
   {
     path: "/Checkout",
-    element:<Protected><Checkout /></Protected> ,
+    element: (
+      <Protected>
+        <Checkout />
+      </Protected>
+    ),
   },
   {
     path: "/UserProfile",
-    element: <UserProfile/>
+    element: <UserProfile />,
   },
   {
     path: "/Productdetailpage/:id",
     element: <Productdetailpage />,
   },
   {
-    path: "/Adminproductdetailpage",
+    path: "/admin/Adminproductdetailpage/:id",
     element: (
       <ProtectedAdmin>
         <Adminproductdetailpage />
@@ -82,7 +99,15 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/Adminproductlistpage",
+    path: "/admin/ProductForm",
+    element: (
+      <ProtectedAdmin>
+        <ProductForm />
+      </ProtectedAdmin>
+    ),
+  },
+  {
+    path: "/admin",
     element: (
       <ProtectedAdmin>
         <Adminproductlistpage />

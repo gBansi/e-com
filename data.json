@@ -9,7 +9,7 @@
       "rating": 0,
       "stock": 0,
       "brand": "Apple",
-      "category": "smartphones",
+      "categori": "smartphones",
       "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/1/1.jpg",
@@ -1863,469 +1863,469 @@
       "value": "Apple",
       "label": "Apple",
       "checked": false,
-      "id": "1e52"
+      "id": "de8f"
     },
     {
       "value": "Samsung",
       "label": "Samsung",
       "checked": false,
-      "id": "9927"
+      "id": "4899"
     },
     {
       "value": "OPPO",
       "label": "OPPO",
       "checked": false,
-      "id": "fab9"
+      "id": "896a"
     },
     {
       "value": "Huawei",
       "label": "Huawei",
       "checked": false,
-      "id": "ecb4"
+      "id": "c776"
     },
     {
       "value": "Microsoft Surface",
       "label": "Microsoft Surface",
       "checked": false,
-      "id": "6e42"
+      "id": "2f6d"
     },
     {
       "value": "Infinix",
       "label": "Infinix",
       "checked": false,
-      "id": "6cfa"
+      "id": "8bdb"
     },
     {
       "value": "HP Pavilion",
       "label": "HP Pavilion",
       "checked": false,
-      "id": "2ac3"
+      "id": "7196"
     },
     {
       "value": "Impression of Acqua Di Gio",
       "label": "Impression of Acqua Di Gio",
       "checked": false,
-      "id": "f78f"
+      "id": "c334"
     },
     {
       "value": "Royal_Mirage",
       "label": "Royal_Mirage",
       "checked": false,
-      "id": "9fab"
+      "id": "9f2b"
     },
     {
       "value": "Fog Scent Xpressio",
       "label": "Fog Scent Xpressio",
       "checked": false,
-      "id": "7ecd"
+      "id": "5212"
     },
     {
       "value": "Al Munakh",
       "label": "Al Munakh",
       "checked": false,
-      "id": "5730"
+      "id": "c34f"
     },
     {
       "value": "Lord - Al-Rehab",
       "label": "Lord   Al Rehab",
       "checked": false,
-      "id": "3d01"
+      "id": "5894"
     },
     {
       "value": "L'Oreal Paris",
       "label": "L'Oreal Paris",
       "checked": false,
-      "id": "0536"
+      "id": "9fb3"
     },
     {
       "value": "Hemani Tea",
       "label": "Hemani Tea",
       "checked": false,
-      "id": "be77"
+      "id": "3154"
     },
     {
       "value": "Dermive",
       "label": "Dermive",
       "checked": false,
-      "id": "5713"
+      "id": "8375"
     },
     {
       "value": "ROREC White Rice",
       "label": "ROREC White Rice",
       "checked": false,
-      "id": "e1b1"
+      "id": "7dc1"
     },
     {
       "value": "Fair & Clear",
       "label": "Fair & Clear",
       "checked": false,
-      "id": "1b8c"
+      "id": "d5aa"
     },
     {
       "value": "Saaf & Khaas",
       "label": "Saaf & Khaas",
       "checked": false,
-      "id": "c3b7"
+      "id": "5346"
     },
     {
       "value": "Bake Parlor Big",
       "label": "Bake Parlor Big",
       "checked": false,
-      "id": "92de"
+      "id": "296b"
     },
     {
       "value": "Baking Food Items",
       "label": "Baking Food Items",
       "checked": false,
-      "id": "3051"
+      "id": "5249"
     },
     {
       "value": "fauji",
       "label": "fauji",
       "checked": false,
-      "id": "c2d0"
+      "id": "317c"
     },
     {
       "value": "Dry Rose",
       "label": "Dry Rose",
       "checked": false,
-      "id": "de03"
+      "id": "7aa3"
     },
     {
       "value": "Boho Decor",
       "label": "Boho Decor",
       "checked": false,
-      "id": "6e91"
+      "id": "fb40"
     },
     {
       "value": "Flying Wooden",
       "label": "Flying Wooden",
       "checked": false,
-      "id": "6351"
+      "id": "b046"
     },
     {
       "value": "LED Lights",
       "label": "LED Lights",
       "checked": false,
-      "id": "6edd"
+      "id": "aa88"
     },
     {
       "value": "luxury palace",
       "label": "luxury palace",
       "checked": false,
-      "id": "25c6"
+      "id": "4e7e"
     },
     {
       "value": "Golden",
       "label": "Golden",
       "checked": false,
-      "id": "7701"
+      "id": "42ba"
     },
     {
       "value": "Furniture Bed Set",
       "label": "Furniture Bed Set",
       "checked": false,
-      "id": "f551"
+      "id": "fca5"
     },
     {
       "value": "Ratttan Outdoor",
       "label": "Ratttan Outdoor",
       "checked": false,
-      "id": "c7ce"
+      "id": "d659"
     },
     {
       "value": "Kitchen Shelf",
       "label": "Kitchen Shelf",
       "checked": false,
-      "id": "7c75"
+      "id": "c6be"
     },
     {
       "value": "Multi Purpose",
       "label": "Multi Purpose",
       "checked": false,
-      "id": "886e"
+      "id": "01f6"
     },
     {
       "value": "AmnaMart",
       "label": "AmnaMart",
       "checked": false,
-      "id": "a158"
+      "id": "5b94"
     },
     {
       "value": "Professional Wear",
       "label": "Professional Wear",
       "checked": false,
-      "id": "0971"
+      "id": "8a99"
     },
     {
       "value": "Soft Cotton",
       "label": "Soft Cotton",
       "checked": false,
-      "id": "b771"
+      "id": "cc8d"
     },
     {
       "value": "Top Sweater",
       "label": "Top Sweater",
       "checked": false,
-      "id": "105c"
+      "id": "49ae"
     },
     {
       "value": "RED MICKY MOUSE..",
       "label": "RED MICKY MOUSE..",
       "checked": false,
-      "id": "c52d"
+      "id": "f4ed"
     },
     {
       "value": "Digital Printed",
       "label": "Digital Printed",
       "checked": false,
-      "id": "5ffc"
+      "id": "0efd"
     },
     {
       "value": "Ghazi Fabric",
       "label": "Ghazi Fabric",
       "checked": false,
-      "id": "3744"
+      "id": "52e7"
     },
     {
       "value": "IELGY",
       "label": "IELGY",
       "checked": false,
-      "id": "793b"
+      "id": "7443"
     },
     {
       "value": "IELGY fashion",
       "label": "IELGY fashion",
       "checked": false,
-      "id": "984e"
+      "id": "e934"
     },
     {
       "value": "Synthetic Leather",
       "label": "Synthetic Leather",
       "checked": false,
-      "id": "3d76"
+      "id": "29d3"
     },
     {
       "value": "Sandals Flip Flops",
       "label": "Sandals Flip Flops",
       "checked": false,
-      "id": "a0bd"
+      "id": "ed98"
     },
     {
       "value": "Maasai Sandals",
       "label": "Maasai Sandals",
       "checked": false,
-      "id": "63d2"
+      "id": "cef6"
     },
     {
       "value": "Arrivals Genuine",
       "label": "Arrivals Genuine",
       "checked": false,
-      "id": "28ab"
+      "id": "17e1"
     },
     {
       "value": "Vintage Apparel",
       "label": "Vintage Apparel",
       "checked": false,
-      "id": "4428"
+      "id": "2dbe"
     },
     {
       "value": "FREE FIRE",
       "label": "FREE FIRE",
       "checked": false,
-      "id": "3387"
+      "id": "4846"
     },
     {
       "value": "The Warehouse",
       "label": "The Warehouse",
       "checked": false,
-      "id": "2013"
+      "id": "8ed7"
     },
     {
       "value": "Sneakers",
       "label": "Sneakers",
       "checked": false,
-      "id": "e9cc"
+      "id": "ab87"
     },
     {
       "value": "Rubber",
       "label": "Rubber",
       "checked": false,
-      "id": "999c"
+      "id": "d6c1"
     },
     {
       "value": "Naviforce",
       "label": "Naviforce",
       "checked": false,
-      "id": "2c44"
+      "id": "91cb"
     },
     {
       "value": "SKMEI 9117",
       "label": "SKMEI 9117",
       "checked": false,
-      "id": "5416"
+      "id": "6c3a"
     },
     {
       "value": "Strap Skeleton",
       "label": "Strap Skeleton",
       "checked": false,
-      "id": "d1a5"
+      "id": "f365"
     },
     {
       "value": "Stainless",
       "label": "Stainless",
       "checked": false,
-      "id": "9666"
+      "id": "d2cb"
     },
     {
       "value": "Eastern Watches",
       "label": "Eastern Watches",
       "checked": false,
-      "id": "f779"
+      "id": "2331"
     },
     {
       "value": "Luxury Digital",
       "label": "Luxury Digital",
       "checked": false,
-      "id": "4450"
+      "id": "af28"
     },
     {
       "value": "Watch Pearls",
       "label": "Watch Pearls",
       "checked": false,
-      "id": "8e00"
+      "id": "2018"
     },
     {
       "value": "Bracelet",
       "label": "Bracelet",
       "checked": false,
-      "id": "ddfe"
+      "id": "40d5"
     },
     {
       "value": "LouisWill",
       "label": "LouisWill",
       "checked": false,
-      "id": "9945"
+      "id": "50c8"
     },
     {
       "value": "Copenhagen Luxe",
       "label": "Copenhagen Luxe",
       "checked": false,
-      "id": "38ec"
+      "id": "a914"
     },
     {
       "value": "Steal Frame",
       "label": "Steal Frame",
       "checked": false,
-      "id": "411e"
+      "id": "6f08"
     },
     {
       "value": "Darojay",
       "label": "Darojay",
       "checked": false,
-      "id": "238e"
+      "id": "462d"
     },
     {
       "value": "Fashion Jewellery",
       "label": "Fashion Jewellery",
       "checked": false,
-      "id": "db8a"
+      "id": "dd95"
     },
     {
       "value": "Cuff Butterfly",
       "label": "Cuff Butterfly",
       "checked": false,
-      "id": "ba1c"
+      "id": "7fa4"
     },
     {
       "value": "Designer Sun Glasses",
       "label": "Designer Sun Glasses",
       "checked": false,
-      "id": "74d5"
+      "id": "b7eb"
     },
     {
       "value": "mastar watch",
       "label": "mastar watch",
       "checked": false,
-      "id": "9884"
+      "id": "d838"
     },
     {
       "value": "Car Aux",
       "label": "Car Aux",
       "checked": false,
-      "id": "7814"
+      "id": "ed3a"
     },
     {
       "value": "W1209 DC12V",
       "label": "W1209 DC12V",
       "checked": false,
-      "id": "c3d8"
+      "id": "6851"
     },
     {
       "value": "TC Reusable",
       "label": "TC Reusable",
       "checked": false,
-      "id": "68ac"
+      "id": "299d"
     },
     {
       "value": "Neon LED Light",
       "label": "Neon LED Light",
       "checked": false,
-      "id": "6648"
+      "id": "ea42"
     },
     {
       "value": "METRO 70cc Motorcycle - MR70",
       "label": "METRO 70cc Motorcycle   MR70",
       "checked": false,
-      "id": "39da"
+      "id": "fe4a"
     },
     {
       "value": "BRAVE BULL",
       "label": "BRAVE BULL",
       "checked": false,
-      "id": "6fc0"
+      "id": "53b4"
     },
     {
       "value": "shock absorber",
       "label": "shock absorber",
       "checked": false,
-      "id": "d8c1"
+      "id": "1a51"
     },
     {
       "value": "JIEPOLLY",
       "label": "JIEPOLLY",
       "checked": false,
-      "id": "5d4b"
+      "id": "618c"
     },
     {
       "value": "Xiangle",
       "label": "Xiangle",
       "checked": false,
-      "id": "1771"
+      "id": "49db"
     },
     {
       "value": "lightingbrilliance",
       "label": "lightingbrilliance",
       "checked": false,
-      "id": "bf04"
+      "id": "f080"
     },
     {
       "value": "Ifei Home",
       "label": "Ifei Home",
       "checked": false,
-      "id": "e57c"
+      "id": "15f9"
     },
     {
       "value": "DADAWU",
       "label": "DADAWU",
       "checked": false,
-      "id": "b762"
+      "id": "1290"
     },
     {
       "value": "YIOSI",
       "label": "YIOSI",
       "checked": false,
-      "id": "5730"
+      "id": "4f43"
     }
   ],
   "categories": [
@@ -2333,121 +2333,121 @@
       "value": "smartphones",
       "label": "smartphones",
       "checked": false,
-      "id": "8014"
+      "id": "7d41"
     },
     {
       "value": "laptops",
       "label": "laptops",
       "checked": false,
-      "id": "7866"
+      "id": "2993"
     },
     {
       "value": "fragrances",
       "label": "fragrances",
       "checked": false,
-      "id": "1d7b"
+      "id": "1855"
     },
     {
       "value": "skincare",
       "label": "skincare",
       "checked": false,
-      "id": "b934"
+      "id": "4827"
     },
     {
       "value": "groceries",
       "label": "groceries",
       "checked": false,
-      "id": "5e25"
+      "id": "fdc9"
     },
     {
       "value": "home-decoration",
       "label": "home decoration",
       "checked": false,
-      "id": "134a"
+      "id": "1eed"
     },
     {
       "value": "furniture",
       "label": "furniture",
       "checked": false,
-      "id": "4e7a"
+      "id": "b6f3"
     },
     {
       "value": "tops",
       "label": "tops",
       "checked": false,
-      "id": "e4b9"
+      "id": "fa38"
     },
     {
       "value": "womens-dresses",
       "label": "womens dresses",
       "checked": false,
-      "id": "2529"
+      "id": "d52c"
     },
     {
       "value": "womens-shoes",
       "label": "womens shoes",
       "checked": false,
-      "id": "c514"
+      "id": "252a"
     },
     {
       "value": "mens-shirts",
       "label": "mens shirts",
       "checked": false,
-      "id": "c547"
+      "id": "2488"
     },
     {
       "value": "mens-shoes",
       "label": "mens shoes",
       "checked": false,
-      "id": "0f09"
+      "id": "3c41"
     },
     {
       "value": "mens-watches",
       "label": "mens watches",
       "checked": false,
-      "id": "fcdc"
+      "id": "2753"
     },
     {
       "value": "womens-watches",
       "label": "womens watches",
       "checked": false,
-      "id": "6fc5"
+      "id": "2ab7"
     },
     {
       "value": "womens-bags",
       "label": "womens bags",
       "checked": false,
-      "id": "497e"
+      "id": "b8be"
     },
     {
       "value": "womens-jewellery",
       "label": "womens jewellery",
       "checked": false,
-      "id": "50cb"
+      "id": "fbb9"
     },
     {
       "value": "sunglasses",
       "label": "sunglasses",
       "checked": false,
-      "id": "f568"
+      "id": "dec4"
     },
     {
       "value": "automotive",
       "label": "automotive",
       "checked": false,
-      "id": "bb9d"
+      "id": "cf4d"
     },
     {
       "value": "motorcycle",
       "label": "motorcycle",
       "checked": false,
-      "id": "fcf4"
+      "id": "11c8"
     },
     {
       "value": "lighting",
       "label": "lighting",
       "checked": false,
-      "id": "0ada"
+      "id": "e348"
     }
   ],
   "users": [
@@ -2502,7 +2502,7 @@
       "id": "3"
     },
     {
-      "id": "d186",
+      "id": "f219",
       "email": "dev.bansi.bluesoltech@gmail.com",
       "password": "Bansi@321",
       "confirm_password": "Bansi@321",
@@ -2515,40 +2515,6 @@
           "city": "rajkot",
           "state": "rajkot",
           "pincode": "364465"
-        }
-      ]
-    },
-    {
-      "id": "cacb",
-      "email": "dev.bansi.bluesoltech@gmail.com",
-      "password": "Bansi@321",
-      "confirm_password": "Bansi@321",
-      "addresses": [
-        {
-          "name": "bansi",
-          "email": "bansi@gmail.com",
-          "phone": "+918127501511",
-          "street-address": "123",
-          "city": "123",
-          "state": "123",
-          "pincode": "123"
-        }
-      ]
-    },
-    {
-      "id": "9a27",
-      "email": "bansi@gmail.com",
-      "password": "Bansi@321",
-      "confirm_password": "Bansi@321",
-      "addresses": [
-        {
-          "name": "bansi",
-          "email": "bansi@gmail.com",
-          "phone": "+918127501511",
-          "street-address": "123",
-          "city": "123",
-          "state": "123",
-          "pincode": "123"
         }
       ],
       "role": "user"
@@ -2574,6 +2540,26 @@
       "quantity": 1,
       "user": 2,
       "id": "1"
+    },
+    {
+      "id": "aa40",
+      "title": "OPPOF19",
+      "description": "OPPO F19 is officially announced on April 2021.",
+      "price": 300,
+      "discountPercentage": 17.91,
+      "rating": 0,
+      "stock": 123,
+      "brand": "OPPO",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/4/1.jpg",
+        "https://i.dummyjson.com/data/products/4/2.jpg",
+        "https://i.dummyjson.com/data/products/4/3.jpg",
+        "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+      ],
+      "quantity": 1,
+      "user": "1"
     }
   ],
   "orders": [
@@ -3274,214 +3260,132 @@
       "id": "11"
     },
     {
-      "id": "47fa",
+      "id": "fee6",
       "items": [
         {
-          "id": "c6f9",
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 1111,
-          "discountPercentage": 17.94,
+          "id": "41e0",
+          "title": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 993,
+          "discountPercentage": 12.96,
           "rating": 0,
-          "stock": 34,
+          "stock": 0,
           "brand": "Apple",
           "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
           "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+            "https://i.dummyjson.com/data/products/1/1.jpg",
+            "https://i.dummyjson.com/data/products/1/2.jpg",
+            "https://i.dummyjson.com/data/products/1/3.jpg",
+            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
           ],
           "deleted": true,
           "quantity": 1,
-          "user": "d186"
+          "user": "1"
         }
       ],
-      "totalAmount": 1111,
+      "totalAmount": 993,
       "totalItems": 1,
       "user": {
-        "id": "d186",
-        "email": "dev.bansi.bluesoltech@gmail.com",
-        "password": "Bansi@321",
-        "confirm_password": "Bansi@321",
+        "email": "test@gmail.com",
+        "password": "Qwerty123",
+        "role": "user",
         "addresses": [
           {
-            "name": "Bansi",
-            "email": "dev.bansi.bluesoltech@gmail.com",
-            "phone": "01234567890",
-            "street-address": "123",
-            "city": "rajkot",
-            "state": "rajkot",
-            "pincode": "364465"
+            "name": "Abhishek Rathore",
+            "email": "test@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Banaglore",
+            "state": "Karnataka",
+            "pinCode": "560034"
+          },
+          {
+            "name": "Jack Morris",
+            "email": "jack@gmail.com",
+            "city": "Delhi",
+            "state": "Delhi",
+            "pinCode": "110006",
+            "phone": "12312331232",
+            "street": "12th cross"
           }
-        ]
+        ],
+        "id": "1"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "Bansi",
-        "email": "dev.bansi.bluesoltech@gmail.com",
-        "phone": "01234567890",
-        "street-address": "123",
-        "city": "rajkot",
-        "state": "rajkot",
-        "pincode": "364465"
+        "name": "Jack Morris",
+        "email": "jack@gmail.com",
+        "city": "Delhi",
+        "state": "Delhi",
+        "pinCode": "110006",
+        "phone": "12312331232",
+        "street": "12th cross"
       },
       "status": "panding"
     },
     {
-      "id": "5c14",
+      "id": "bdcf",
       "items": [
         {
-          "id": "c1c2",
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 1111,
-          "discountPercentage": 17.94,
-          "rating": 0,
-          "stock": 34,
-          "brand": "Apple",
+          "id": "3f9c",
+          "title": "Samsung Universe 9",
+          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+          "price": 1249,
+          "discountPercentage": 15.46,
+          "rating": 4.09,
+          "stock": 36,
+          "brand": "Samsung",
           "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
           "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+            "https://i.dummyjson.com/data/products/3/1.jpg"
           ],
           "deleted": true,
           "quantity": 1,
-          "user": "d186"
-        },
-        {
-          "id": "101e",
-          "title": "perfume Oil",
-          "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
-          "price": 13,
-          "discountPercentage": 8.4,
-          "rating": 4.26,
-          "stock": 65,
-          "brand": "Impression of Acqua Di Gio",
-          "category": "fragrances",
-          "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/11/1.jpg",
-            "https://i.dummyjson.com/data/products/11/2.jpg",
-            "https://i.dummyjson.com/data/products/11/3.jpg",
-            "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": "d186"
+          "user": "f219"
         }
       ],
-      "totalAmount": 1124,
-      "totalItems": 2,
-      "user": {
-        "id": "d186",
-        "email": "dev.bansi.bluesoltech@gmail.com",
-        "password": "Bansi@321",
-        "confirm_password": "Bansi@321",
-        "addresses": [
-          {
-            "name": "Bansi",
-            "email": "dev.bansi.bluesoltech@gmail.com",
-            "phone": "01234567890",
-            "street-address": "123",
-            "city": "rajkot",
-            "state": "rajkot",
-            "pincode": "364465"
-          }
-        ]
-      },
-      "paymentMethod": "payment",
-      "selectedAddress": {
-        "name": "Bansi",
-        "email": "dev.bansi.bluesoltech@gmail.com",
-        "phone": "01234567890",
-        "street-address": "123",
-        "city": "rajkot",
-        "state": "rajkot",
-        "pincode": "364465"
-      },
-      "status": "panding"
-    },
-    {
-      "id": "a4c9",
-      "items": [
-        {
-          "id": "2d9a",
-          "title": "Hyaluronic Acid Serum",
-          "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
-          "price": 19,
-          "discountPercentage": 13.31,
-          "rating": 4.83,
-          "stock": 110,
-          "brand": "L'Oreal Paris",
-          "category": "skincare",
-          "thumbnail": "https://i.dummyjson.com/data/products/16/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/16/1.png",
-            "https://i.dummyjson.com/data/products/16/2.webp",
-            "https://i.dummyjson.com/data/products/16/3.jpg",
-            "https://i.dummyjson.com/data/products/16/4.jpg",
-            "https://i.dummyjson.com/data/products/16/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": "d186"
-        }
-      ],
-      "totalAmount": 19,
+      "totalAmount": 1249,
       "totalItems": 1,
       "user": {
-        "id": "d186",
+        "id": "f219",
         "email": "dev.bansi.bluesoltech@gmail.com",
         "password": "Bansi@321",
         "confirm_password": "Bansi@321",
-        "addresses": [
-          {
-            "name": "Bansi",
-            "email": "dev.bansi.bluesoltech@gmail.com",
-            "phone": "01234567890",
-            "street-address": "123",
-            "city": "rajkot",
-            "state": "rajkot",
-            "pincode": "364465"
-          }
-        ]
+        "addresses": [],
+        "role": "user"
       },
       "paymentMethod": "cash",
       "selectedAddress": null,
       "status": "panding"
     },
     {
-      "id": "9d0f",
+      "id": "daa6",
       "items": [
         {
-          "id": "791c",
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 993,
-          "discountPercentage": 12.96,
-          "rating": 0,
-          "stock": 0,
-          "brand": "Apple",
+          "id": "1880",
+          "title": "Samsung Universe 9",
+          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+          "price": 1249,
+          "discountPercentage": 15.46,
+          "rating": 4.09,
+          "stock": 36,
+          "brand": "Samsung",
           "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+          "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
           "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+            "https://i.dummyjson.com/data/products/3/1.jpg"
           ],
           "deleted": true,
           "quantity": 1,
-          "user": "d186"
+          "user": "f219"
         }
       ],
-      "totalAmount": 993,
+      "totalAmount": 1249,
       "totalItems": 1,
       "user": {
-        "id": "d186",
+        "id": "f219",
         "email": "dev.bansi.bluesoltech@gmail.com",
         "password": "Bansi@321",
         "confirm_password": "Bansi@321",
@@ -3494,236 +3398,12 @@
             "city": "rajkot",
             "state": "rajkot",
             "pincode": "364465"
-          }
-        ]
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Bansi",
-        "email": "dev.bansi.bluesoltech@gmail.com",
-        "phone": "01234567890",
-        "street-address": "123",
-        "city": "rajkot",
-        "state": "rajkot",
-        "pincode": "364465"
-      },
-      "status": "panding"
-    },
-    {
-      "id": "08fa",
-      "items": [
-        {
-          "id": "1232",
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 1111,
-          "discountPercentage": 17.94,
-          "rating": 0,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "deleted": true,
-          "quantity": 1,
-          "user": "cacb"
-        }
-      ],
-      "totalAmount": 1111,
-      "totalItems": 1,
-      "user": {
-        "id": "cacb",
-        "email": "dev.bansi.bluesoltech@gmail.com",
-        "password": "Bansi@321",
-        "confirm_password": "Bansi@321",
-        "addresses": [
-          {
-            "name": "bansi",
-            "email": "bansi@gmail.com",
-            "phone": "+918127501511",
-            "street-address": "123",
-            "city": "123",
-            "state": "123",
-            "pincode": "123"
-          }
-        ]
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "bansi",
-        "email": "bansi@gmail.com",
-        "phone": "+918127501511",
-        "street-address": "123",
-        "city": "123",
-        "state": "123",
-        "pincode": "123"
-      },
-      "status": "panding"
-    },
-    {
-      "id": "9791",
-      "items": [
-        {
-          "id": "3b3c",
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 1111,
-          "discountPercentage": 17.94,
-          "rating": 0,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-          ],
-          "deleted": true,
-          "quantity": 1,
-          "user": "d186"
-        }
-      ],
-      "totalAmount": 1111,
-      "totalItems": 1,
-      "user": {
-        "id": "d186",
-        "email": "dev.bansi.bluesoltech@gmail.com",
-        "password": "Bansi@321",
-        "confirm_password": "Bansi@321",
-        "addresses": [
-          {
-            "name": "Bansi",
-            "email": "dev.bansi.bluesoltech@gmail.com",
-            "phone": "01234567890",
-            "street-address": "123",
-            "city": "rajkot",
-            "state": "rajkot",
-            "pincode": "364465"
-          }
-        ]
-      },
-      "paymentMethod": "payment",
-      "selectedAddress": {
-        "name": "Bansi",
-        "email": "dev.bansi.bluesoltech@gmail.com",
-        "phone": "01234567890",
-        "street-address": "123",
-        "city": "rajkot",
-        "state": "rajkot",
-        "pincode": "364465"
-      },
-      "status": "panding"
-    },
-    {
-      "id": "3033",
-      "items": [
-        {
-          "id": "6f82",
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 993,
-          "discountPercentage": 12.96,
-          "rating": 0,
-          "stock": 0,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "deleted": true,
-          "quantity": 1,
-          "user": "9a27"
-        }
-      ],
-      "totalAmount": 993,
-      "totalItems": 1,
-      "user": {
-        "id": "9a27",
-        "email": "bansi@gmail.com",
-        "password": "Bansi@321",
-        "confirm_password": "Bansi@321",
-        "addresses": [
-          {
-            "name": "bansi",
-            "email": "bansi@gmail.com",
-            "phone": "+918127501511",
-            "street-address": "123",
-            "city": "123",
-            "state": "123",
-            "pincode": "123"
           }
         ],
         "role": "user"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "bansi",
-        "email": "bansi@gmail.com",
-        "phone": "+918127501511",
-        "street-address": "123",
-        "city": "123",
-        "state": "123",
-        "pincode": "123"
-      },
-      "status": "panding"
-    },
-    {
-      "id": "5604",
-      "items": [
-        {
-          "id": "b69c",
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 993,
-          "discountPercentage": 12.96,
-          "rating": 0,
-          "stock": 0,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "deleted": true,
-          "quantity": 1,
-          "user": "d186"
-        }
-      ],
-      "totalAmount": 993,
-      "totalItems": 1,
-      "user": {
-        "id": "d186",
-        "email": "dev.bansi.bluesoltech@gmail.com",
-        "password": "Bansi@321",
-        "confirm_password": "Bansi@321",
-        "addresses": [
-          {
-            "name": "Bansi",
-            "email": "dev.bansi.bluesoltech@gmail.com",
-            "phone": "01234567890",
-            "street-address": "123",
-            "city": "rajkot",
-            "state": "rajkot",
-            "pincode": "364465"
-          }
-        ]
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
         "name": "Bansi",
         "email": "dev.bansi.bluesoltech@gmail.com",
         "phone": "01234567890",
@@ -3733,121 +3413,6 @@
         "pincode": "364465"
       },
       "status": "panding"
-    },
-    {
-      "id": "e465",
-      "items": [
-        {
-          "id": "ff07",
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 993,
-          "discountPercentage": 12.96,
-          "rating": 0,
-          "stock": 0,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "deleted": true,
-          "quantity": 1,
-          "user": "d186"
-        }
-      ],
-      "totalAmount": 993,
-      "totalItems": 1,
-      "user": {
-        "id": "d186",
-        "email": "dev.bansi.bluesoltech@gmail.com",
-        "password": "Bansi@321",
-        "confirm_password": "Bansi@321",
-        "addresses": [
-          {
-            "name": "Bansi",
-            "email": "dev.bansi.bluesoltech@gmail.com",
-            "phone": "01234567890",
-            "street-address": "123",
-            "city": "rajkot",
-            "state": "rajkot",
-            "pincode": "364465"
-          }
-        ]
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Bansi",
-        "email": "dev.bansi.bluesoltech@gmail.com",
-        "phone": "01234567890",
-        "street-address": "123",
-        "city": "rajkot",
-        "state": "rajkot",
-        "pincode": "364465"
-      },
-      "status": "panding"
-    }
-  ],
-  "sliver": [
-    {
-      "id": "1",
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 993,
-      "discountPercentage": 12.96,
-      "rating": 0,
-      "stock": 0,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/1/1.jpg",
-        "https://i.dummyjson.com/data/products/1/2.jpg",
-        "https://i.dummyjson.com/data/products/1/3.jpg",
-        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-      ],
-      "deleted": true
-    },
-    {
-      "id": "2",
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 993,
-      "discountPercentage": 12.96,
-      "rating": 0,
-      "stock": 0,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/1/1.jpg",
-        "https://i.dummyjson.com/data/products/1/2.jpg",
-        "https://i.dummyjson.com/data/products/1/3.jpg",
-        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-      ],
-      "deleted": true
-    },
-    {
-      "id": "3",
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 993,
-      "discountPercentage": 12.96,
-      "rating": 0,
-      "stock": 0,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/1/1.jpg",
-        "https://i.dummyjson.com/data/products/1/2.jpg",
-        "https://i.dummyjson.com/data/products/1/3.jpg",
-        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-      ],
-      "deleted": true
     }
   ]
 }

@@ -39,25 +39,12 @@ const sortOptions = [
   },
 ];
 
-const filters = [
-  {
-    id: "category",
-    name: "Category",
-    options: [
-      { value: "fragrances", label: "fragrances", checked: false },
-      { value: "skincare", label: "skincare", checked: false },
-      { value: "groceries", label: "groceries", checked: true },
-      { value: "home-decoration", label: "home-decoration", checked: false },
-      { value: "laptops", label: "laptops", checked: false },
-      { value: "smartphones", label: "smartphones", checked: false },
-    ],
-  },
-];
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function AdminProductlist() {
+export default function Productlist() {
   const dispatch = useDispatch();
   const products = useSelector(selectAllProducts);
   const categories = useSelector(selectcategories);
@@ -69,9 +56,9 @@ export default function AdminProductlist() {
 
   const filters = [
     {
-      id: "categories",
-      name: "categories",
-      options: categories,
+      id: 'categories',
+      name: 'categories',
+      options:categories,
     },
   ];
 
@@ -116,7 +103,7 @@ export default function AdminProductlist() {
 
   useEffect(() => {
     dispatch(fetchCategoriesAsync());
-  });
+  },[]);
 
   return (
     <div>
@@ -126,7 +113,7 @@ export default function AdminProductlist() {
             handleFilter={handleFilter}
             mobileFiltersOpen={mobileFiltersOpen}
             setMobileFiltersOpen={setMobileFiltersOpen}
-            filter={filter}
+            filters={filters}
           ></MobileFilter>
 
           <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -207,13 +194,14 @@ export default function AdminProductlist() {
               <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4">
                 {/* Filters */}
                 <DesktopFilter
-                  filter={filter}
+                  filters={filters}
                   handleFilter={handleFilter}
                 ></DesktopFilter>
-
+                
                 {/* Product grid */}
                 <div className="lg:col-span-3">
-                  {" "}
+                <div>
+                  <Link to='/admin/ProductForm' className="rounded-md my-5 mx-10 bg-indigo-600 px-3 py-2 text-sm font-semibold text-white">Add New Product</Link></div>
                   {/* Product Part */}
                   <ProductGrid products={products}> </ProductGrid>
                 </div>
@@ -231,7 +219,7 @@ function MobileFilter({
   mobileFiltersOpen,
   setMobileFiltersOpen,
   handleFilter,
-  filter,
+  filters,
 }) {
   return (
     <div>
@@ -347,7 +335,7 @@ function MobileFilter({
     </div>
   );
 }
-function DesktopFilter({ handleFilter, filter }) {
+function DesktopFilter({ handleFilter, filters }) {
   return (
     <div>
       <form className="hidden lg:block">
@@ -530,7 +518,11 @@ function ProductGrid({ products }) {
                       </p>
                     </div>
                   </div>
+                  
                 </div>
+                <div>
+                    <button className="rounded-md my-4 mx-4 bg-indigo-600 px-3 py-2 text-sm font-semibold text-white">Edit Product</button>
+                  </div>
               </Link>
             ))}
           </div>
