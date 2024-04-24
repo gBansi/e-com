@@ -2518,6 +2518,14 @@
         }
       ],
       "role": "user"
+    },
+    {
+      "id": "981d",
+      "email": "admin@gmail.com",
+      "password": "Hardik@321",
+      "confirm_password": "Hardik@321",
+      "addresses": [],
+      "role": "user"
     }
   ],
   "cart": [
