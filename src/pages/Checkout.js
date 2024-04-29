@@ -35,6 +35,8 @@ const Checkout = () => {
     formState: { errors },
   } = useForm();
 
+  
+
   const totalItems = items.reduce((total, item) => item.quantity + total, 0);
   const handleQuantity = (e, item) => {
     dispatch(updateCartAsync({ id: item.id, quantity: +e.target.value }));

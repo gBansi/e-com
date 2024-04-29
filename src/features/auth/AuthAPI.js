@@ -25,10 +25,10 @@ export function checkUser(loginInfo) {
       resolve ({data})
     } else{
       const error = await response.json();
-      reject({ error });
+      reject( error );
     }
     } catch (error) {
-      reject({ error });
+      reject(error);
     }
   });
 }
