@@ -5,7 +5,7 @@ import { fetchProductByIdAsync } from "../ProductSlice";
 import { useSelector, useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
 import { selectProductById } from "../ProductSlice";
-import { addToCartAsync } from "../../cart/cartSlice";
+import { addToCartAsync, selectItems } from "../../cart/cartSlice";
 import {selectLoggedInUser} from '../../auth/AuthSlice'
 import { discountedPrice } from "../../../app/constants";
 
@@ -40,19 +40,31 @@ export default function Productdetails() {
   const [selectedSize, setSelectedSize] = useState(sizes[2]);
   const product = useSelector(selectProductById);
   const user = useSelector(selectLoggedInUser);
+  const items = useSelector(selectItems)
   const dispatch = useDispatch();
   const params = useParams();
 
   const handleCart = (e)=> {
-    e.preventDefault()
-    const newItem = {...product,quantity:1,user:user.id,}
-    delete newItem['id'];
-   dispatch(addToCartAsync(newItem))
+    e.preventDefault();
+    if (items.findIndex((item) => item.product.id === product.id) < 0) {
+      console.log({ items, product });
+    
+    const newItem = {
+      product: product.id,
+      quantity:1,
+      user:user.id,
+    };
+   dispatch(addToCartAsync(newItem));
+   alert.error('Item added to Cart');
+  }else {
+    alert.error('Item Already added')
   }
+};
 
   useEffect(() => {
     dispatch(fetchProductByIdAsync(params.id));
   }, [dispatch, params.id]);
+
   return (
     <div className="bg-white">
       {product && (

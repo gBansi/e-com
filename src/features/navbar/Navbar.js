@@ -35,6 +35,7 @@ function classNames(...classes) {
 function Navbar({ children }) {
   const items = useSelector(selectItems);
   const user = useSelector(selectLoggedInUser);
+  
   return (
     <div className="min-h-full">
       <Disclosure as="nav" className="bg-white text-black">

@@ -1,9 +1,17 @@
 export function fetchAllProducts() {
   return new Promise(async (resolve) => {
+<<<<<<< HEAD
     const response = await fetch("http://localhost:8080/products");
     const data = await response.json();
     resolve({ data });
   });
+=======
+    const response = await fetch('http://localhost:8080/Products')
+    const data = await response.json()
+    resolve({ data })
+  }
+  );
+>>>>>>> be8756b58214520c37bf16c3a9b279b1a480d048
 }
 export function fetchProductById(id) {
   return new Promise(async (resolve) => {
@@ -65,3 +73,8 @@ export function fetchCategories() {
     resolve({ data });
   });
 }
+<<<<<<< HEAD
+=======
+
+ 
+>>>>>>> be8756b58214520c37bf16c3a9b279b1a480d048
