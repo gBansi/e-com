@@ -29,6 +29,7 @@ import Adminproductlistpage from "./pages/Adminproductlistpage.js";
 import ProtectedAdmin from "./features/auth/component/ProtectedAdmin.js";
 import UserProfile from "./features/user/components/UserProfile.js";
 import ProductForm from "./features/admin/component/ProductForm.js";
+import Adminorderspage from "./pages/Adminorderspage.js";
 
 const router = createBrowserRouter([
   {
@@ -45,8 +46,8 @@ const router = createBrowserRouter([
     element: <Loginpage />,
   },
   {
-    path: "/login",
-    element: <Loginpage />,
+    path: "/Logout",
+    element: <Logout />,
   },
   {
     path: "/Forgotpassword",
@@ -59,7 +60,6 @@ const router = createBrowserRouter([
 
   {
     path: "/Cartpage",
-
     element: (
       <Protected>
         <Cartpage />
@@ -107,6 +107,22 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: "/admin/Adminorderspage/",
+    element: (
+      <ProtectedAdmin>
+        <Adminorderspage />
+      </ProtectedAdmin>
+    ),
+  },
+  {
+    path: "/admin/ProductForm/edit/:id",
+    element: (
+      <ProtectedAdmin>
+        <ProductForm />
+      </ProtectedAdmin>
+    ),
+  },
+  {
     path: "/admin",
     element: (
       <ProtectedAdmin>
@@ -118,6 +134,7 @@ const router = createBrowserRouter([
     path: "/UserOrders/",
     element: <UserOrders />,
   },
+
   {
     path: "/Ordersuccesspage/:id",
     element: <Ordersuccesspage />,

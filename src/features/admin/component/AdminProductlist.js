@@ -21,7 +21,7 @@ import {
 } from "@heroicons/react/20/solid";
 import { Link } from "react-router-dom";
 import { selectCount } from "../../counter/counterSlice";
-import { ITEMS_PER_PAGE } from "../../../app/constants";
+import { ITEMS_PER_PAGE, discountedPrice } from "../../../app/constants";
 
 const sortOptions = [
   { name: "Best Rating", sort: "rating", order: "desc", current: false },
@@ -39,7 +39,6 @@ const sortOptions = [
   },
 ];
 
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -56,9 +55,9 @@ export default function Productlist() {
 
   const filters = [
     {
-      id: 'categories',
-      name: 'categories',
-      options:categories,
+      id: "categories",
+      name: "categories",
+      options: categories,
     },
   ];
 
@@ -103,7 +102,7 @@ export default function Productlist() {
 
   useEffect(() => {
     dispatch(fetchCategoriesAsync());
-  },[]);
+  }, []);
 
   return (
     <div>
@@ -197,11 +196,17 @@ export default function Productlist() {
                   filters={filters}
                   handleFilter={handleFilter}
                 ></DesktopFilter>
-                
+
                 {/* Product grid */}
                 <div className="lg:col-span-3">
-                <div>
-                  <Link to='/admin/ProductForm' className="rounded-md my-5 mx-10 bg-indigo-600 px-3 py-2 text-sm font-semibold text-white">Add New Product</Link></div>
+                  <div>
+                    <Link
+                      to="/admin/ProductForm"
+                      className="rounded-md my-5 mx-10 bg-indigo-600 px-3 py-2 text-sm font-semibold text-white"
+                    >
+                      Add New Product
+                    </Link>
+                  </div>
                   {/* Product Part */}
                   <ProductGrid products={products}> </ProductGrid>
                 </div>
@@ -480,9 +485,7 @@ function ProductGrid({ products }) {
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
             {products.map((product) => (
               <Link to={`/Productdetailpage/${product.id}`} key={product.id}>
-                <div
-                  className="group relative border-solid border-gray-200 p-2 border-2"
-                >
+                <div className="group relative border-solid border-gray-200 p-2 border-2">
                   <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                     <img
                       src={product.thumbnail}
@@ -509,20 +512,25 @@ function ProductGrid({ products }) {
                     <div>
                       <p className="text-sm font-medium text-gray-900">
                         $
-                        {Math.round(
-                          product.price * (1 - product.discountPercentage / 100)
-                        )}
+                        {discountedPrice(product)}
                       </p>
                       <p className="text-sm font-medium  text-gray-500">
                         ${product.price}
                       </p>
                     </div>
                   </div>
-                  
+                  {product.deleted &&<div>
+                    <p className="text-sm text-red-400">product delete</p>
+                  </div>}
                 </div>
-                <div>
-                    <button className="rounded-md my-4 mx-4 bg-indigo-600 px-3 py-2 text-sm font-semibold text-white">Edit Product</button>
-                  </div>
+                <div className="mt-5">
+                  <Link
+                    to={`/admin/ProductForm/edit/${product.id}`}
+                    className="rounded-md my-4 mx-4 bg-indigo-600 px-3 py-2 text-sm font-semibold text-white"
+                  >
+                    Edit Product
+                  </Link>
+                </div>
               </Link>
             ))}
           </div>

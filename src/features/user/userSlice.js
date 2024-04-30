@@ -4,6 +4,7 @@ import {
   updateUser,
   fetchLoggedInUser,
 } from './userAPI';
+import { increment } from '../cart/cartSlice';
 // import {
 //   updateUser
 // }from '../auth/AuthAPI'
@@ -47,7 +48,9 @@ export const userSlice = createSlice({
   name: 'user',
   initialState,
   reducers: {
-   
+   increment: (state)=>{
+    state.value +=1;
+   }
   },
   extraReducers: (builder) => {
     builder
@@ -57,7 +60,6 @@ export const userSlice = createSlice({
       .addCase(fetchLoggedInUserOrderAsync.fulfilled, (state, action) => {
         state.status = 'idle';
         state.userOrders = action.payload;
-
       })
       .addCase(updateUserAsync.pending, (state) => {
         state.status = 'loading';
@@ -81,7 +83,5 @@ export const userSlice = createSlice({
 export const selectUserOrders = (state) => state.user.userOrders;
 export const selectUserInfo = (state) => state.user.userInfo;
 export const selectUserInfoStatus = (state) => state.user.status;
-
-// export const { increment } = userSlice.actions;
 
 export default userSlice.reducer;

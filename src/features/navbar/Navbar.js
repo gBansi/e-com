@@ -18,6 +18,8 @@ const navigation = [
   { name: "Products", link: "/product", user: true },
   { name: "Contact", link: "#", user: true },
   { name: "Admin", link: "/admin", admin: true },
+  { name: "Orders", link: "/admin/Adminorderspage/", admin: true },
+
 ];
 
 const userNavigation = [
@@ -27,7 +29,7 @@ const userNavigation = [
 ];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
+  return classes.filter(Boolean).join("");
 }
 
 function Navbar({ children }) {
